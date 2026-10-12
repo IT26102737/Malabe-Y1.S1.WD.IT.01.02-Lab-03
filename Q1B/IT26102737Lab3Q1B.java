@@ -15,8 +15,8 @@ public class IT26102737Lab3Q1B
 		
 		double discount= TotalBeforDiscount*0.10;
 		
-		double TotalAfterTheDiscount= totalBeforDiscount- discount;
+		double TotalAfterTheDiscount= TotalBeforDiscount- discount;
 		
-		System.out.println("The total amount with 10% discount is:" + totalAfterTheDiscount);
+		System.out.println("The total amount with 10% discount is:" + TotalAfterTheDiscount);
 	}	
 }		
